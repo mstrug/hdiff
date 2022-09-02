@@ -15,3 +15,15 @@ hdiff delta <signature file> <new input file> <output delta file> [optional chun
 ```
 
 Default chunk size is 1024 bytes, use values larger than 32 bytes.
+
+# Development
+
+## Compilation
+```
+cargo build
+```
+
+## Unit tests run
+```
+cargo test
+```
